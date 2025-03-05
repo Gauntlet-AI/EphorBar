@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "LlamaBar",
+  "name": "SideEphor",
   "version": "1.0",
   "description": "A Chrome extension for interacting with Ollama",
   "permissions": [
@@ -19,7 +19,7 @@
     "https://api.grok.x/*"
   ],
   "action": {
-    "default_title": "LlamaBar",
+    "default_title": "SideEphor",
     "default_icon": {
       "16": "assets/icon16.jpg",
       "48": "assets/icon48.jpg",

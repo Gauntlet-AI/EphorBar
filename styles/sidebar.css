@@ -1,6 +1,6 @@
 /* Base styles */
 :root {
-    --primary-color: #2196F3;
+    --primary-color: #9D7FEA; /* Light purple from Ephor UI */
     --background-color: #ffffff;
     --text-color: #1f2937;
     --border-color: #e5e7eb;
@@ -14,12 +14,12 @@
 
 /* Dark theme variables */
 body.dark-theme {
-    --primary-color: #2196F3; /* Keep the same blue */
-    --background-color: #121212;
+    --primary-color: #B195F3; /* Lighter purple for dark mode */
+    --background-color: #0D0B12; /* Dark background from Ephor UI */
     --text-color: #e0e0e0;
     --border-color: #333333;
-    --hover-color: #2a2a2a;
-    --message-bg: #262626;
+    --hover-color: #1A1721; /* Slightly lighter than background for hover states */
+    --message-bg: #1E1B26; /* Message background from Ephor UI */
     --shadow-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -117,7 +117,7 @@ body {
 }
 
 input:checked + .slider {
-    background-color: var(--primary-color);
+    background-color: #9D7FEA;
 }
 
 input:checked + .slider:before {
@@ -336,7 +336,7 @@ input:checked + .slider:before {
 .user-message {
     margin-left: auto;
     margin-right: 0;
-    background: var(--primary-color);
+    background: #9D7FEA;
     color: white;
     border-radius: 12px 12px 0 12px;
     align-self: flex-end;
@@ -407,7 +407,7 @@ input:checked + .slider:before {
 }
 
 .content-container a {
-    color: #2563eb;
+    color: #9D7FEA;
     text-decoration: none;
 }
 
@@ -696,12 +696,12 @@ textarea {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--border-color);
+    background: #9D7FEA;
     border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #cdcdcd;
+    background: #8A6CD7;
 }
 
 /* Image handling */
@@ -986,12 +986,12 @@ body.dark-theme .api-key-input input {
 }
 
 .save-key {
-    background: #2196F3;
+    background: #9D7FEA;
     color: white;
 }
 
 .save-key:hover {
-    background: #1976D2;
+    background: #8A6CD7;
 }
 
 .remove-key {
@@ -1077,7 +1077,7 @@ body.dark-theme .provider-info:hover {
 }
 
 .openrouter-model-input input:focus {
-    border-color: var(--primary-color);
+    border-color: #9D7FEA;
     outline: none;
 }
 

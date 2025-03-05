@@ -482,7 +482,7 @@ export class ExternalModelService {
                 'Authorization': `Bearer ${apiKey}`,
                 'Content-Type': 'application/json',
                 'HTTP-Referer': chrome.runtime.getURL(''),
-                'X-Title': 'LlamaBar'
+                'X-Title': 'SideEphor'
             },
             body: JSON.stringify({
                 model: cleanModelId,
@@ -638,7 +638,7 @@ export class ExternalModelService {
                             'Authorization': `Bearer ${await ApiKeyManager.getApiKey('openrouter')}`,
                             'Content-Type': 'application/json',
                             'HTTP-Referer': chrome.runtime.getURL(''),
-                            'X-Title': 'LlamaBar'
+                            'X-Title': 'SideEphor'
                         }
                     });
 

@@ -76,7 +76,7 @@ export class ApiService {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${apiKey}`,
                 'HTTP-Referer': chrome.runtime.getURL(''),
-                'X-Title': 'LlamaBar'
+                'X-Title': 'SideEphor'
             },
             body: JSON.stringify({
                 model: model,
